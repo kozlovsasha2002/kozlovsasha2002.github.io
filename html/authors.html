@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/components.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link type="image/x-icon" href="../resources/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+    
+
+    <header-component></header-component>
+    <script>
+        $(document).ready(function (event) {
+            checkLogin();
+        });
+    </script>
+
+    <main>
+        <div class="wrapper">
+            <div id="main-content">
+                <div id="side-content">
+                    <div id="genres">
+                        <a href="genre.html?genre=ФАНТАСТИКА">ФАНТАСТИКА</a>
+                        <a href="genre.html?genre=ДЕТЕКТИВЫ">ДЕТЕКТИВЫ</a>
+                        <a href="genre.html?genre=ФЭНТЭЗИ">ФЭНТЭЗИ</a>
+                        <a href="genre.html?genre=РОМАНЫ">РОМАНЫ</a>
+                        <a href="genre.html?genre=ОБРАЗОВАНИЕ">ОБРАЗОВАНИЕ</a>                        
+                        <a href="genre.html?genre=ПРИКЛЮЧЕНИЯ">ПРИКЛЮЧЕНИЯ</a>
+                        <a href="genre.html?genre=БОЕВИКИ">БОЕВИКИ</a>  
+                        <a href="genre.html?genre=ДЕТСКИЕ КНИГИ">ДЕТСКИЕ КНИГИ</a>                                            
+                        <a href="genre.html?genre=СПРАВОЧНИКИ">СПРАВОЧНИКИ</a>
+                        <a href="genre.html?genre=ПРОГРАММИРОВАНИЕ">ПРОГРАММИРОВАНИЕ</a>
+                    </div>
+                </div>
+                <div id="bookshelf">
+                    <div class="card">
+                        <h3>Список авторов</h3>                        
+                        <p>1) Андрей Васильев</p>
+                        <p>2) Фрэнк Герберт</p>
+                        <p>3) Сергей Лукьяненко</p>
+                        <p>4) Майк Омер</p>
+                        <p>5) Котаро Исака</p>
+                        <p>6) Джеймс Роллинс</p>
+                        <p>7) Сергей Самаров</p>
+                        <p>8) Григорий Шаргородский</p>
+                        <p>9) Артем Каменистый</p>
+                        <p>10) Ульяна Павловна Соболева</p>
+                        <p>11) Марина Суржевская</p>
+                        <p>12) Андрей Курпатов</p>
+                        <p>13) Юваль Ной Харари</p>
+                        <p>14) Митио Каку</p>
+                        <p>15) Александр Дюма</p>
+                        <p>16) Стасс Бабицкий</p>
+                        <p>17) Лера Некрасова</p>
+                        <p>18) Стивен Кинг</p>
+                        <p>19) Александр Мазин</p>
+                        <p>20) Джон Харт</p>                                
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+    <footer-component></footer-component>       
+   
+</body>
+</html>

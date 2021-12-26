@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/components.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link type="image/x-icon" href="../resources/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+    <header-component></header-component>
+    <script>
+        $(document).ready(function (event) {
+            checkLogin();
+        });
+    </script>
+
+    <main>
+        <div class="wrapper">
+            <div id="main-content">
+                <div id="side-content">
+                    <div id="genres">
+                        <a href="genre.html?genre=ФАНТАСТИКА">ФАНТАСТИКА</a>
+                        <a href="genre.html?genre=ДЕТЕКТИВЫ">ДЕТЕКТИВЫ</a>
+                        <a href="genre.html?genre=ФЭНТЭЗИ">ФЭНТЭЗИ</a>
+                        <a href="genre.html?genre=РОМАНЫ">РОМАНЫ</a>
+                        <a href="genre.html?genre=ОБРАЗОВАНИЕ">ОБРАЗОВАНИЕ</a>                        
+                        <a href="genre.html?genre=ПРИКЛЮЧЕНИЯ">ПРИКЛЮЧЕНИЯ</a>
+                        <a href="genre.html?genre=БОЕВИКИ">БОЕВИКИ</a>  
+                        <a href="genre.html?genre=ДЕТСКИЕ КНИГИ">ДЕТСКИЕ КНИГИ</a>                                            
+                        <a href="genre.html?genre=СПРАВОЧНИКИ">СПРАВОЧНИКИ</a>
+                        <a href="genre.html?genre=ПРОГРАММИРОВАНИЕ">ПРОГРАММИРОВАНИЕ</a>
+                    </div>
+                </div>
+                <div id="bookshelf">                   
+                    <div class="card">
+                        <h3>Варяг. Я в роду старший</h3>
+                        <div class="card-body">
+                            <img src="mazin.jpg">
+                            <div class="brief-desc">
+                                <p>Автор: Александр Мазин</p>
+                                <p>Цена: 870 руб.</p>
+                                <p>Жанр: БОЕВИКИ</p>
+                                <p>Год: 2021</p>
+                                <p>Страниц: 320</p>
+                                <p>Рейтинг: 4.8/5</p>
+                                <a href="https://www.litres.ru/static/or4/view/or.html?baseurl=/pub/t/66772558.&art=66772558&trials=1&user=0&file=90916968">Читать</a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>«Какого ты рода?» Это первый вопрос, который задают незнакомцу в десятом веке. Отец, дед, прадед… Достоин ли ты их памяти? Достоин ли ты, их потомок, сесть за один стол с воинами? Достойно ли воинам идти за тобой? Можно ли с тобой родниться? Как бы ловко ты ни управлялся с оружием, как бы храбр ни был, без рода ты – никто. Сергей придумал, что отвечать на главный вопрос. Осталось лишь доказать: он – достоин.</p>
+                        </div>                      
+                    </div>
+               
+                    <div class="card">
+                        <h3>Три мушкетера</h3>
+                        <div class="card-body">
+                            <img src="three_muchketa.jpg">
+                            <div class="brief-desc">
+                                <p>Автор: Александр Дюма</p>
+                                <p>Цена: 1500 руб.</p>
+                                <p>Жанр: ПРИКЛЮЧЕНИЯ</p>
+                                <p>Год: 1844</p>
+                                <p>Страниц: 800</p>
+                                <p>Рейтинг: 4.7/5</p>
+                                <a href="">Читать</a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Известнейший историко-приключенческий роман из эпохи Людовика XIII знаменитого французского писателя-классика Александра Дюма-отца входит в золотой фонд мировой литературы. Четверо неразлучных друзей – д'Артаньян, Атос, Портос и Арамис, погружённые во все дворцовые тайны и интриги сильных мира сего, под девизом «Один за всех и все за одного» всегда выходят победителями, спасая честь королевы Анны Австрийской и противостоя многочисленным козням кардинала Ришелье.</p>
+                        </div>                      
+                    </div>                   
+        
+                    <div class="card">
+                        <h3>Орден Лино. Эра исполнения желаний</h3>
+                        <div class="card-body">
+                            <img src="Orden_lino.jpg">
+                            <div class="brief-desc">
+                                <p>Автор: Марина Суржевская</p>
+                                <p>Цена: 920 руб.</p>
+                                <p>Жанр: РОМАНЫ</p>
+                                <p>Год: 2021</p>
+                                <p>Страниц: 480</p>
+                                <p>Рейтинг: 4.8/5</p>
+                                <a href="https://www.litres.ru/static/or4/view/or.html?baseurl=/pub/t/65550216.&art=65550216&trials=1&user=0&file=89499074">Читать</a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Десять лет назад мир изменился. Властитель Лино даровал людям исполнение заветных желаний. Наступила новая прекрасная эра, в которой каждый может получить то, о чем мечтал. И только я, девушка без имени и прошлого, не могу смириться с новыми порядками. Я хочу уничтожить того, кого называют богом.</p>
+                        </div>                      
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </main>
+   
+    <footer-component></footer-component>   
+</body>
+</html>

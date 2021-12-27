@@ -8,6 +8,10 @@ body {
     background-image: url('../resources/bg_body.jpg');
 }
 
+main {
+	min-height: calc(100vh - 364px);
+}
+
 a {
     text-decoration: none;
 }
@@ -38,7 +42,7 @@ header .icon {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}л
+}
 
 #head-wrapper > *:not(:last-child) {
     margin-right: 20px;
@@ -331,4 +335,12 @@ footer {
     .account-nav {
         margin-top: 10px;
     }
+}
+
+@media (max-width: 360px) {
+	.brief-desc > a {
+		font-size: 14px;
+		padding: 7px;
+		margin-top: 5px;
+	}
 }
